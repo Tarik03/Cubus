@@ -98,7 +98,7 @@ function buildSceneGraph()
 	rotate.append(telescope1);
 
 	//Ground zeichnen
-	center.append(sg.draw(buildGround));
+	center.append(sg.draw(initGround));
 
 	center.append(sg.drawCoordSys());
 
